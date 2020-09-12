@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/video_nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <style>
+        .fixed .desktop_nav-links li a,
+        .fixed .dropdown .first_a {
+            color: white !important;
+        }
+
+        .desktop_nav ul li a {
+            color: white ;
+        }
+
+        .submenu li a {
+            color: black !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main style="height: 100vh;">
+        <header class="video_header">
+            <nav>
+                <div class="page_container">
+                    <div style="padding: 1rem 0 3rem" class="navbar navbar-expand-md desktop_nav">
+                        <div class="navbar-collapse collapse order-1 order-md-0 dual-collapse2">
+                            <a class="navbar-brand" href="#"> <img style="height:50px !important" src="img/logo.png"
+                                    alt=""> </a>
+                        </div>
+                        <div class="mx-auto order-0" style="width: 100%;">
+                            <ul class="navbar-nav mr-auto justify-content-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Ana Sehife</a>
+                                </li>  
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Haqqimizda</a>
+                                </li>
+                                <li class="nav-item has-submenu">
+                                    <a href="javascript:void(0)" class="frst-child">Məhsullar <i class="fas fa-chevron-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="https://reklampro.az/basket" id="basketIndex"> SeçİlmİşlƏr</a></li>
+                                        <li><a href="https://reklampro.az/bron"> Bron</a></li>
+                                        <li><a href="https://reklampro.az/order">Satış</a></li>
+                                        <li><a href="https://reklampro.az/print/index">Çap-montaj</a></li>
+                                        <li class="color-menu"><a href="https://reklampro.az/print/index">Çap-montaj</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Xəbərlər</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Əlaqə</a>
+                                </li>
+                                <li>
+
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="navbar-collapse collapse order-3 dual-collapse2">
+                            <ul class="navbar-nav ml-auto lang-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link lang-link" href="#">AZ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link lang-link" href="#">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mobile_nav">
+                        <div>
+                            <div class="logo">
+                                <a href="index.html"><img src="img/muflon-logo.png" alt="Logo Image"></a>
+                            </div>
+                            <button class="open"><span><i class="fas fa-bars"></i></span></button>
+                        </div>
+                        <ul class="nav-links">
+                            <button class="close"><span><i class="fas fa-times"></i></span></button>
+                            <li class="nav-link">
+                                <a href="index.html">Ana səhifə</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="about.html">Haqqımızda</a>
+                            </li>
+                            <li class="nav-link dropdown">
+                                <label for="dd2" class="hypertext">
+                                    Məhsullar <span class="ml-2"><i class="fas fa-angle-down"></i></span>
+                                </label>
+                                <input type="checkbox" hidden id="dd2" />
+                                <ul class="dd">
+                                    <li><a class="hypertext" href="product.html">Antikorroziv astarlar və
+                                            boyalar</a>
+                                    </li>
+                                    <li><a class="hypertext" href="product.html">İstiliyə davamlı boyalar</a>
+                                    </li>
+                                    <li><a class="hypertext" href="product.html">Yanğın gecikdirici boyalar</a>
+                                    </li>
+                                    <li><a class="hypertext" href="product.html">Dəniz boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Yol cizgi boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Epoksid və poliüretan zəmin
+                                            örtükləri</a></li>
+                                    <li><a class="hypertext" href="product.html">Tinerlər</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-link">
+                                <a href="news.html">Xəbərlər</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="contact.html">Əlaqə</a>
+                            </li>
+                            <li class="nav-link dropdown lang">
+                                <label for="dd1" class="hypertext">
+                                    Az <span class="ml-2"><i class="fas fa-angle-down"></i></span>
+                                </label>
+                                <input type="checkbox" hidden id="dd1" />
+                                <ul class="dd">
+                                    <li><a class="hypertext" href="#">Rus</a></li>
+                                    <li><a class="hypertext" href="#">Eng</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <div class="video_wrapper">
+            <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#videoCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <video autoplay loop muted id="bgvid">
+                            <source src="video/731a17c20e194a3b0a5a05f24eed5045.mp4" type="video/mp4">
+                            <source src="video/731a17c20e194a3b0a5a05f24eed5045.webm" type="video/webm">
+                        </video>
+                        <div class="carousel-caption d-md-block video_text">
+                            <div>
+                                <h1>Azpol Toz ilə təməliniz möhkəm olsun !</h1>
+                                <p>
+                                    O NAMA
+                                    Naša kompanija
+                                    HEINEKEN Hrvatska dio je kompanije HEINEKEN, najinternacionalnijeg proizvođača piva na svijetu.</p>
+                            </div>
+                            <div class="more_read">
+                                <button class="btn ">Apply <span>&#10095;</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video autoplay loop muted id="bgvid">
+                            <source src="video/toz2.mp4" type="video/mp4">
+                            <source src="video/toz2.webm" type="video/webm">
+                        </video>
+                        <div class="carousel-caption d-md-block video_text">
+                            <div>
+                                <h1>Azpol Toz ilə təməliniz möhkəm olsun !</h1>
+                                <p>
+                                    O NAMA
+                                    Naša kompanija
+                                    HEINEKEN Hrvatska dio je kompanije HEINEKEN, najinternacionalnijeg proizvođača piva na svijetu.</p>
+                            </div>
+                            <div class="more_read">
+                                <button class="btn ">Apply <span>&#10095;</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <section class="about_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 wow fadeInLeft">
+                    <h2 class="head_text">Brewing a better world</h2>
+                    <p class="text">Sustainability is the foundation of our business and something that all our brands
+                        have in
+                        common. We are determined to “Brew a Better World” by focusing our activities and efforts on six
+                        different areas that incorporate environmental protection and social responsibility.
+                    </p>
+                    <div class="more_read">
+                        <button class="btn ">Find out more <span>&#10095;</span></button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 ml wow flipInY">
+                    <div class="image_wr">
+                        <img src="img/croatian-barley.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab_panel_section">
+        <div class="container">
+            <h2 class="head_text wow fadeInUp">We promote responsible consumption</h2>
+            <div class="tab wow fadeInUp">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="true">Why?</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">How?</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Uzivajodgovorno.hr</a>
+                    </li>
+                </ul>
+                <div>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="row">
+                                <div class="col-lg-6 col-12 wow zoomIn">
+                                    <div class="image_wr">
+                                        <img src="img/why.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12 d-flex align-items-center wow fadeInRight">
+                                    <div class="ml-5 resp_ml">
+                                        <h4 class="head_text">Why?</h4>
+                                        <p class="text">Beer is a natural fermented drink that, when enjoyed in
+                                            moderation, can be
+                                            part
+                                            of a balanced lifestyle. However, when alcohol is not consumed responsibly,
+                                            there are clear health and behavioural risks. For some people and on some
+                                            occasions, it is better not to drink at all. We are committed to promoting
+                                            responsible consumption.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="image_wr">
+                                        <img src="img/why.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12 d-flex align-items-center">
+                                    <div class="ml-5 resp_ml">
+                                        <h4 class="head_text">How?</h4>
+                                        <p class="text">We actively promote responsible consumption through several
+                                            initiatives and
+                                            projects (such as For Responsible Youth). Heineken® is our global brand and
+                                            we use its strength to show that moderate consumption is cool. In 2019, we
+                                            spent 10% of total Heineken® advertising resources on promoting responsible
+                                            consumption with “When you Drive, Never Drink” campaign as our focus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="image_wr">
+                                        <img src="img/how.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12 d-flex align-items-center">
+                                    <div class="ml-5 resp_ml">
+                                        <h4 class="head_text">Uzivajodgovorno.hr</h4>
+                                        <p class="text">Uzivajodgovorno.hr is a web site dedicated to practical
+                                            information on how to
+                                            enjoy alcohol responsibly. You can find out what it means to enjoy
+                                            responsibly, get more information on the risks of alcohol consumption and
+                                            learn about who should not drink alcohol at all.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 wow fadeInDown">
+                    <h2 class="head_text">Brands</h2>
+                    <p class="text">We have an excellent, diverse and rich portfolio of products that would satisfy the
+                        tastes of adult lovers of beer and cider on a whole range of occasions.</p>
+                    <div class="more_read">
+                        <button class="btn ">Find out more <span>&#10095;</span></button>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12 wow fadeInUp">
+                    <div class="Marquee">
+                        <div class="Marquee-content">
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="Marquee-tag">
+                                <a href="#">
+                                    <img src="img/6-1558088582675.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join_us_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 wow slideInLeft">
+                    <div class="image_wr">
+                        <img src="img/hein_team2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 content wow slideInRight">
+                    <div>
+                        <h4 class="head_text">Join our team</h4>
+                        <p class="text">Apply and join HEINEKEN Hrvatska team</p>
+                        <div class="more_read">
+                            <button class="btn ">Apply <span>&#10095;</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="ft_content wow fadeInUp">
+                <div>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Logo Image">
+                        </a>
+                    </div>
+                </div>
+                <div class="nav_list">
+                    <ul>
+                        <li><a href="#">Ana səhifə</a></li>
+                        <li><a href="#">Haqqimizda</a></li>
+                        <li><a href="#">Məhsullar</a></li>
+                        <li><a href="#">Xəbərlər</a></li>
+                        <li><a href="#">Əlaqə</a></li>
+                    </ul>
+                </div>
+                <div class="phone">
+                    <ul>
+                        <li class="icon">
+                            <span><i class="fas fa-phone-alt"></i></span>
+                        </li>
+                        <li>
+                            <span>CENTRAL</span>
+                            <a href="#">+385 047 607 111</a>
+                        </li>
+                        <li>
+                            <span>CUSTOMER SERVICE</span>
+                            <a href="#">+385 047 607 111</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mail">
+                    <ul>
+                        <li class="icon">
+                            <span><i class="far fa-envelope"></i></span>
+                        </li>
+                        <li>
+                            <span>CUSTOMER SERVICE</span>
+                            <a href="#">potrosac@heineken.com</a>
+                        </li>
+                        <li>
+                            <span>SPONSORSHIP</span>
+                            <a href="#">marketing@karlovacko.hr</a>
+                        </li>
+                        <li>
+                            <span>SPONSORSHIP</span>
+                            <a href="#">marketing@karlovacko.hr</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lang">
+                    <!--Dropdown primary-->
+                    <div class="dropdown">
+                        <!--Trigger-->
+                        <a style="float: right;font-weight:bold" class="first_a btn dropdown-toggle" type="button"
+                            id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AZ</a>
+                        <!--Menu-->
+                        <div class="dropdown-menu dropdown-success">
+                            <a class="dropdown-item" href="#">RUS</a>
+                            <a class="dropdown-item" href="#">ENG</a>
+                        </div>
+                    </div>
+                    <!--/Dropdown primary-->
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy; Bütün hüquqlar qorunur.</div>
+    </footer>
+
+    <script src="js/mdb.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/wow.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

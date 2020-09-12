@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/video_nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        .fixed .desktop_nav-links li a,
+        .fixed .dropdown .first_a {
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main style="padding: 3rem 0;">
+        <header class="video_header">
+            <div class="page_container">
+                <div style="padding: 1rem 0 3rem" class="navbar navbar-expand-md desktop_nav">
+                    <div class="navbar-collapse collapse order-1 order-md-0 dual-collapse2">
+                        <a class="navbar-brand" href="#"> <img style="height:50px !important" src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="mx-auto order-0" style="width: 100%;">
+                        <ul class="navbar-nav mr-auto justify-content-center">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Ana Sehife</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Haqqimizda</a>
+                            </li>
+                            <li class="nav-item has-submenu">
+                                <a href="javascript:void(0)" class="frst-child">Məhsullar <i
+                                        class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="https://reklampro.az/basket" id="basketIndex"> SeçİlmİşlƏr</a></li>
+                                    <li><a href="https://reklampro.az/bron"> Bron</a></li>
+                                    <li><a href="https://reklampro.az/order">Satış</a></li>
+                                    <li><a href="https://reklampro.az/print/index">Çap-montaj</a></li>
+                                    <li class="color-menu"><a href="https://reklampro.az/print/index">Çap-montaj</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Xəbərlər</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Əlaqə</a>
+                            </li>
+                            <li>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="navbar-collapse collapse order-3 dual-collapse2">
+                        <ul class="navbar-nav ml-auto lang-nav">
+                            <li class="nav-item">
+                                <a class="nav-link lang-link" href="#">AZ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link lang-link" href="#">EN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mobile_nav">
+                    <div>
+                        <div class="logo">
+                            <a href="index.html"><img src="img/muflon-logo.png" alt="Logo Image"></a>
+                        </div>
+                        <button class="open"><span><i class="fas fa-bars"></i></span></button>
+                    </div>
+                    <ul class="nav-links">
+                        <button class="close"><span><i class="fas fa-times"></i></span></button>
+                        <li class="nav-link">
+                            <a href="index.html">Ana səhifə</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="about.html">Haqqımızda</a>
+                        </li>
+                        <li class="nav-link dropdown">
+                            <label for="dd2" class="hypertext">
+                                Məhsullar <span class="ml-2"><i class="fas fa-angle-down"></i></span>
+                            </label>
+                            <input type="checkbox" hidden id="dd2" />
+                            <ul class="dd">
+                                <li><a class="hypertext" href="product.html">Antikorroziv astarlar və
+                                        boyalar</a>
+                                </li>
+                                <li><a class="hypertext" href="product.html">İstiliyə davamlı boyalar</a>
+                                </li>
+                                <li><a class="hypertext" href="product.html">Yanğın gecikdirici boyalar</a>
+                                </li>
+                                <li><a class="hypertext" href="product.html">Dəniz boyaları</a></li>
+                                <li><a class="hypertext" href="product.html">Yol cizgi boyaları</a></li>
+                                <li><a class="hypertext" href="product.html">Epoksid və poliüretan zəmin
+                                        örtükləri</a></li>
+                                <li><a class="hypertext" href="product.html">Tinerlər</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="news.html">Xəbərlər</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="contact.html">Əlaqə</a>
+                        </li>
+                        <li class="nav-link dropdown lang">
+                            <label for="dd1" class="hypertext">
+                                Az <span class="ml-2"><i class="fas fa-angle-down"></i></span>
+                            </label>
+                            <input type="checkbox" hidden id="dd1" />
+                            <ul class="dd">
+                                <li><a class="hypertext" href="#">Rus</a></li>
+                                <li><a class="hypertext" href="#">Eng</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </main>
+
+    <div class="products mt-5">
+        <div class="container">
+            <div class="row reverst">
+                <div class="col-lg-3 col-md-3">
+                    <h3 class="mb-5" style="font-weight: bold;">Kategoriya</h3>
+
+                    <ul class="first-ul wow zoomIn">
+                        <li><a href="">Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href="">Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href="">Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href="">Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href="">Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href="">Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href="">Kafel və Keramika yapışdırıcıları</a></li>
+                    </ul>
+                    <ul class="second-ul wow zoomIn">
+                        <li>NIYƏ BIZ?</li>
+                        <li><a href=""><i class="fas fa-dot-circle"></i> Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href=""> <i class="fas fa-dot-circle"></i>Vizyonumuz lider şirkət mövqesinə çatmaqdır</a></li>
+                        <li><a href=""><i class="fas fa-dot-circle"></i>Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href=""><i class="fas fa-dot-circle"></i> və Keramika yapışdırıcıları</a></li>
+                        <li><a href=""><i class="fas fa-dot-circle"></i>Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href=""><i class="fas fa-dot-circle"></i>Kafel və Keramika yapışdırıcıları</a></li>
+                        <li><a href=""><i class="fas fa-dot-circle"></i>Kafel və Keramika yapışdırıcıları</a></li>
+                    </ul>
+                    <ul class="third-ul wow zoomIn">
+                        <li>ƏLAQƏ</li>
+                        <li><i class="fas fa-phone"></i> +99450 201-99-22</li>
+                        <li><i class="far fa-envelope-open"></i>marketing@nbgroup.az</li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <h2 class="mb-5" style="font-weight: bold;">Məhsullarımız</h1>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12  wow fadeInUp">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="http://azpoltoz.az/uploads/posts/2020-08/1597083708_21534.png"
+                                            class="card-img" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fasad Flex Fuga</h5>
+                                            <p class="card-text"><small class="text-muted">10-08-2020, 21:03</small></p>
+                                            <p class="card-text">
+                                                Sement əsaslı, məhsulun performansını, emal edilmə müddətini, su
+                                                keçirməzliyini, çatlamaya dözümünü və rəng qalıcılığını artıran kimyəvi
+                                                qatqılardan ibarət, bir komponentli, xarici məkanlar üçün </p>
+                                                <a href="">Məhsullar/ Aralıq doldurma qarışıqları</a>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow fadeInUp">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="http://azpoltoz.az/uploads/posts/2020-08/1597083708_21534.png"
+                                            class="card-img" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fasad Flex Fuga</h5>
+                                            <p class="card-text"><small class="text-muted">10-08-2020, 21:03</small></p>
+                                            <p class="card-text">
+                                                Sement əsaslı, məhsulun performansını, emal edilmə müddətini, su
+                                                keçirməzliyini, çatlamaya dözümünü və rəng qalıcılığını artıran kimyəvi
+                                                qatqılardan ibarət, bir komponentli, xarici məkanlar üçün </p>
+                                                <a href="">Məhsullar/ Aralıq doldurma qarışıqları</a>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow fadeInUp">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="http://azpoltoz.az/uploads/posts/2020-08/1597083708_21534.png"
+                                            class="card-img" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fasad Flex Fuga</h5>
+                                            <p class="card-text"><small class="text-muted">10-08-2020, 21:03</small></p>
+                                            <p class="card-text">
+                                                Sement əsaslı, məhsulun performansını, emal edilmə müddətini, su
+                                                keçirməzliyini, çatlamaya dözümünü və rəng qalıcılığını artıran kimyəvi
+                                                qatqılardan ibarət, bir komponentli, xarici məkanlar üçün </p>
+                                                <a href="">Məhsullar/ Aralıq doldurma qarışıqları</a>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow fadeInUp">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="http://azpoltoz.az/uploads/posts/2020-08/1597083708_21534.png"
+                                            class="card-img" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fasad Flex Fuga</h5>
+                                            <p class="card-text"><small class="text-muted">10-08-2020, 21:03</small></p>
+                                            <p class="card-text">
+                                                Sement əsaslı, məhsulun performansını, emal edilmə müddətini, su
+                                                keçirməzliyini, çatlamaya dözümünü və rəng qalıcılığını artıran kimyəvi
+                                                qatqılardan ibarət, bir komponentli, xarici məkanlar üçün </p>
+                                                <a href="">Məhsullar/ Aralıq doldurma qarışıqları</a>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow fadeInUp">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="http://azpoltoz.az/uploads/posts/2020-08/1597083708_21534.png"
+                                            class="card-img" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fasad Flex Fuga</h5>
+                                            <p class="card-text"><small class="text-muted">10-08-2020, 21:03</small></p>
+                                            <p class="card-text">
+                                                Sement əsaslı, məhsulun performansını, emal edilmə müddətini, su
+                                                keçirməzliyini, çatlamaya dözümünü və rəng qalıcılığını artıran kimyəvi
+                                                qatqılardan ibarət, bir komponentli, xarici məkanlar üçün </p>
+                                                <a href="">Məhsullar/ Aralıq doldurma qarışıqları</a>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow fadeInUp">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="http://azpoltoz.az/uploads/posts/2020-08/1597083708_21534.png"
+                                            class="card-img" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fasad Flex Fuga</h5>
+                                            <p class="card-text"><small class="text-muted">10-08-2020, 21:03</small></p>
+                                            <p class="card-text">
+                                                Sement əsaslı, məhsulun performansını, emal edilmə müddətini, su
+                                                keçirməzliyini, çatlamaya dözümünü və rəng qalıcılığını artıran kimyəvi
+                                                qatqılardan ibarət, bir komponentli, xarici məkanlar üçün </p>
+                                                <a href="">Məhsullar/ Aralıq doldurma qarışıqları</a>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow fadeInUp">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="http://azpoltoz.az/uploads/posts/2020-08/1597083708_21534.png"
+                                            class="card-img" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fasad Flex Fuga</h5>
+                                            <p class="card-text"><small class="text-muted">10-08-2020, 21:03</small></p>
+                                            <p class="card-text">
+                                                Sement əsaslı, məhsulun performansını, emal edilmə müddətini, su
+                                                keçirməzliyini, çatlamaya dözümünü və rəng qalıcılığını artıran kimyəvi
+                                                qatqılardan ibarət, bir komponentli, xarici məkanlar üçün </p>
+                                                <a href="">Məhsullar/ Aralıq doldurma qarışıqları</a>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow fadeInUp">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="http://azpoltoz.az/uploads/posts/2020-08/1597083708_21534.png"
+                                            class="card-img" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fasad Flex Fuga</h5>
+                                            <p class="card-text"><small class="text-muted">10-08-2020, 21:03</small></p>
+                                            <p class="card-text">
+                                                Sement əsaslı, məhsulun performansını, emal edilmə müddətini, su
+                                                keçirməzliyini, çatlamaya dözümünü və rəng qalıcılığını artıran kimyəvi
+                                                qatqılardan ibarət, bir komponentli, xarici məkanlar üçün </p>
+                                                <a href="">Məhsullar/ Aralıq doldurma qarışıqları</a>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="ft_content wow fadeInUp">
+                <div>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Logo Image">
+                        </a>
+                    </div>
+                </div>
+                <div class="nav_list">
+                    <ul>
+                        <li><a href="#">Ana səhifə</a></li>
+                        <li><a href="#">Haqqimizda</a></li>
+                        <li><a href="#">Məhsullar</a></li>
+                        <li><a href="#">Xəbərlər</a></li>
+                        <li><a href="#">Əlaqə</a></li>
+                    </ul>
+                </div>
+                <div class="phone">
+                    <ul>
+                        <li class="icon">
+                            <span><i class="fas fa-phone-alt"></i></span>
+                        </li>
+                        <li>
+                            <span>CENTRAL</span>
+                            <a href="#">+385 047 607 111</a>
+                        </li>
+                        <li>
+                            <span>CUSTOMER SERVICE</span>
+                            <a href="#">+385 047 607 111</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mail">
+                    <ul>
+                        <li class="icon">
+                            <span><i class="far fa-envelope"></i></span>
+                        </li>
+                        <li>
+                            <span>CUSTOMER SERVICE</span>
+                            <a href="#">potrosac@heineken.com</a>
+                        </li>
+                        <li>
+                            <span>SPONSORSHIP</span>
+                            <a href="#">marketing@karlovacko.hr</a>
+                        </li>
+                        <li>
+                            <span>SPONSORSHIP</span>
+                            <a href="#">marketing@karlovacko.hr</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lang">
+                    <!--Dropdown primary-->
+                    <div class="dropdown">
+                        <!--Trigger-->
+                        <a style="float: right;font-weight:bold" class="first_a btn dropdown-toggle" type="button"
+                            id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AZ</a>
+                        <!--Menu-->
+                        <div class="dropdown-menu dropdown-success">
+                            <a class="dropdown-item" href="#">RUS</a>
+                            <a class="dropdown-item" href="#">ENG</a>
+                        </div>
+                    </div>
+                    <!--/Dropdown primary-->
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy; Bütün hüquqlar qorunur.</div>
+    </footer>
+
+    <script src="js/mdb.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/wow.js"></script>
+
+    <script>
+        new WOW().init();
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

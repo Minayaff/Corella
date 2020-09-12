@@ -1,0 +1,183 @@
+          .video_header .desktop_nav {
+              justify-content: space-around;
+              align-items: center;
+              padding: 1rem 0;
+          }
+
+          .video_header .desktop_nav-links {
+              justify-content: space-between;
+          }
+
+          .video_header .desktop_nav .nav_menu .top_nav {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 0 22px;
+              color: white;
+              font-weight: bold;
+              margin-bottom: 5px;
+          }
+
+          .desktop_nav .lang .dropdown-menu {
+              min-width: 6rem;
+          }
+
+          .desktop_nav .lang .btn,
+          .desktop_nav .dropdown .btn {
+              box-shadow: none;
+              transform: translateY(0);
+              background-color: transparent !important;
+          }
+
+          .video_header {
+              position: absolute;
+              left: 0;
+              right: 0;
+              top: 0;
+              z-index: 555;
+          }
+
+          header .top_nav .nav_button {
+              padding: 10px 40px;
+              margin: 8px 0;
+          }
+
+          header .desktop_nav-links .dropdown .dropdown-menu li a {
+              color: black !important;
+          }
+
+          header .desktop_nav .top_nav div:first-child svg {
+              width: 11px;
+              height: 11px;
+          }
+
+          header .top_nav .search_form label {
+              position: relative;
+              margin-bottom: 0;
+          }
+
+          header .top_nav .search_form label span {
+              position: absolute;
+              top: 11px;
+              color: white;
+              z-index: 555;
+              left: 12px;
+          }
+
+          header .top_nav .search-field {
+              background-color: transparent;
+              background-position: 5px center;
+              background-size: 24px 24px;
+              border: none;
+              cursor: pointer;
+              height: 37px;
+              margin: 3px 0;
+              padding: 0 0 0 34px;
+              position: relative;
+              -webkit-transition: width 400ms ease, background 400ms ease;
+              transition: width 400ms ease, background 400ms ease;
+              width: 0 !important;
+          }
+
+          header .top_nav .search-field:hover {
+              background-color: #fff;
+              border: 2px solid white;
+              border-radius: 5rem;
+              cursor: text;
+              outline: 0;
+              width: 230px !important;
+
+          }
+
+          header .top_nav label:hover span {
+              color: black;
+          }
+
+          header .top_nav .search-submit {
+              display: none;
+          }
+
+          header .top_nav .search-field {
+              -webkit-appearance: textfield;
+          }
+
+          .video_wrapper {
+              position: absolute;
+              top: 0;
+              left: 0;
+              /* z-index: -555; */
+          }
+
+          .video_wrapper video {
+              width: 100%;
+              height: 100vh;
+              object-fit: cover;
+              object-position: center;
+          }
+
+          .video_wrapper .video_text {
+              top: 70%;
+              bottom: 50%;
+              text-align: left;
+              width: 40%;
+              margin: auto 0;
+              height: max-content;
+              padding-top: 5rem;
+          }
+
+          .video_wrapper .video_text>div {
+              margin-bottom: 3rem;
+          }
+          .video_wrapper .video_text p{
+            font-size: 1.2rem;
+          }
+
+          .video_wrapper .video_text h1 {
+              font-size: 2rem;
+              font-weight: bold;
+              margin-bottom: 3rem;
+          }
+
+          .video_wrapper .btn {
+              border-radius: 5rem !important;
+              transition: 0.2s !important;
+              border: 1px  solid white !important;
+              box-shadow: none !important;
+              background-color: transparent !important;
+              color: white !important;
+          }
+
+
+          main .btn:hover {
+              transform: translateY(-5px);
+          }
+
+          @media only screen and (max-width: 920px) {
+              .video_wrapper .video_text h1 {
+                  font-size: 2rem;
+              }
+
+              .video_wrapper .video_text .btn {
+                  padding: 20px 30px;
+              }
+          }
+
+          @media only screen and (max-width: 768px) {
+              header .top_nav .nav_button {
+                  display: none;
+              }
+
+              header .top_nav>div {
+                  z-index: 555555;
+              }
+              .video_wrapper .video_text {
+                width: 80%;
+            }
+  
+          }
+
+          @media only screen and (max-width: 600px) {
+              header .top_nav form {
+                  display: none;
+              }
+          }
